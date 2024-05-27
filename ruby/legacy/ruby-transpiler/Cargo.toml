@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "ast",
+  "cli",
+  "lexer",
+  "parser",
+  "unparser",
+]

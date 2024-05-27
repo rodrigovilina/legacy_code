@@ -1,0 +1,49 @@
+---
+inherit_mode:
+  merge:
+    - Exclude
+    - Include
+
+AllCops:
+  TargetRubyVersion: 3.1
+  Include: 
+    - 'bin/*'
+  Exclude:
+    - 'bin/setup'
+
+Layout/CaseIndentation:
+  Enabled: false
+
+Layout/ElseAlignment:
+  Enabled: false
+
+Layout/EndAlignment:
+  Enabled: false
+
+Layout/ExtraSpacing:
+  Enabled: false
+
+Layout/IndentationWidth:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 150
+
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+Naming/MethodName:
+  Enabled: false
+
+Style/AccessorGrouping: 
+  Enabled: false
+
+Style/ColonMethodCall:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/LambdaCall:
+  Enabled: false
+

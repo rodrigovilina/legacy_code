@@ -1,0 +1,21 @@
+---
+integration: rspec
+
+includes:
+  - lib
+requires:
+  - wood/parser
+
+matcher:
+  subjects:
+    - Wood::Factories*
+    - Wood::Node*
+    - Wood::Parser::Result*
+    - Wood::Parser*
+  ignore:
+    - Wood::Factories#Token
+
+fail_fast: true
+
+mutation:
+  ignore_patterns: []

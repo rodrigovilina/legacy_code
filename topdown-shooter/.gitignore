@@ -1,0 +1,5 @@
+client/target
+game/target
+server/target
+output.log
+/old_client_code

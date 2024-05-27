@@ -1,0 +1,12 @@
+---
+require:
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+Lint/EmptyClass:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false

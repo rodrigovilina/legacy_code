@@ -1,0 +1,5 @@
+--force-color
+--order random
+--format documentation
+--require spec_helper
+--require maple_story

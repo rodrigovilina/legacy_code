@@ -1,0 +1,22 @@
+---
+integration: rspec
+includes:
+- lib
+requires:
+- wood/lexer
+
+matcher:
+  subjects:
+    - Wood::Factories*
+    - Wood::Lexer*
+    - Wood::Maybe*
+    - Wood::Token*
+    - Wood::TokenType*
+  ignore:
+    - Wood::TokenType#to_s
+
+
+fail_fast: true
+
+mutation:
+  ignore_patterns: []

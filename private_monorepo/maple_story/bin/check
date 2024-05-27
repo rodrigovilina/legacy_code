@@ -1,0 +1,5 @@
+set -euxo pipefail
+
+bin/rubocop -fs -fo -fw
+bin/rspec
+bin/srb tc

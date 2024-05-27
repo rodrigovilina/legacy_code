@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "eyro-values",
+  "eyro-entities",
+  "eyro-packets",
+  "eyro-repositories",
+  "eyro-server",
+  "eyro-client",
+]
